@@ -1,0 +1,130 @@
+/* ===== Global Styles ===== */
+body {
+  background: url("../assets/food-bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* ===== App Container ===== */
+.app-container {
+  max-width: 80%;
+  margin: 30px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9); /* Light blur effect */
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* ===== Headings ===== */
+h2 {
+  text-align: center;
+  color: #d35400;
+  font-size: 26px;
+}
+
+/* ===== Form Styles ===== */
+input {
+  padding: 10px;
+  width: 250px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+}
+
+/* ===== Buttons ===== */
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.add-btn {
+  background: #28a745;
+  color: white;
+}
+
+.add-btn:hover {
+  background: #218838;
+}
+
+.edit-btn {
+  background: #007bff;
+  color: white;
+}
+
+.edit-btn:hover {
+  background: #0056b3;
+}
+
+.delete-btn {
+  background: #dc3545;
+  color: white;
+}
+
+.delete-btn:hover {
+  background: #c82333;
+}
+
+.save-btn {
+  background: #ff9800;
+  color: white;
+}
+
+.save-btn:hover {
+  background: #e68900;
+}
+
+/* ===== Table Styles ===== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: 16px;
+}
+
+th {
+  background: #f4f4f4;
+  color: #333;
+}
+
+tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+tr:hover {
+  background: rgba(255, 193, 7, 0.2);
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 768px) {
+  .app-container {
+    max-width: 95%;
+    padding: 15px;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  table {
+    font-size: 14px;
+  }
+}
