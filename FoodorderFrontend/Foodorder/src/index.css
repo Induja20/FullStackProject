@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background: url("/background.avif") no-repeat center center fixed;
+  background-size: cover;
+}
+
+h2 {
+  text-align: center;
+  color: #ff5733;
+  margin-bottom: 10px;
+}
