@@ -1,0 +1,89 @@
+body { 
+    font-family: Arial, sans-serif;
+    background-image: url(weatherappbg.avif);
+    background-size: cover;
+    margin: 0;
+    padding: 0; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+     } 
+.container { 
+    background:rgba(225, 225, 225, 0.2);
+    width: 350px; 
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(30px);
+    border: 2px solid rgba(225, 225, 225, 0.2);
+    text-align: center;
+    color:#fff;
+             
+   } 
+   .search-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    } 
+   .search-box input {
+    width: 100%;
+    padding: 10px; 
+    border: none; 
+    border-radius: 5px;
+    margin-left: 10px; 
+    } 
+                    
+   .search-box .search-btn { 
+      cursor: pointer;
+      width: 50px;
+      height: 20px;
+    } 
+   
+   .city-hide {
+    display: none;
+    color: red;
+    margin: 10px 0;
+    } 
+   .weather-box { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+    } 
+   .weather-box img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px; 
+   } 
+  .temperature {
+   font-size: 48px; 
+   } 
+   .description {
+   font-size: 24px;
+   text-transform: capitalize;
+   margin-top: -10px;
+   }
+  .weather-details {
+   display: flex; 
+   justify-content: space-between; 
+   margin-top: 20px;
+   } 
+  .weather-details .humidity,
+  .weather-details .wind {
+   display: flex; 
+   align-items: center;
+   }
+ .weather-details i {
+   font-size: 24px; 
+   margin-right: 10px; 
+    } 
+ .not-found { 
+   display: none;
+   margin-top: 20px; 
+   } 
+ .not-found img {
+  width: 100px;
+  margin-bottom: 10px;
+ }
+
